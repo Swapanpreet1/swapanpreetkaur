@@ -86,7 +86,7 @@ public class queueimp1 {
 
 
 
-    public boolean isEmpty()
+   /* public boolean isEmpty()
     {
         return front == -1;
     }
@@ -99,15 +99,8 @@ public class queueimp1 {
     {
         return len ;
     }
-
-    /* public int peek()
-    {
-        if (isEmpty())
-            throw new NoSuchElementException("Underflow Exception");
-        return queuearr[front];
-    }
-
 */
+
     public static void main(String[] args) {
         try {
             queueimp1 q1 = new queueimp1();
@@ -134,10 +127,6 @@ public class queueimp1 {
         }
 
 
-        //System.out.println("Empty status = "+q1.isEmpty());
-        //System.out.println("Full status = "+q1.isFull());
-        //System.out.println("Size = "+ q1.getSize());
-        //default : System.out.println("Wrong Entry \n ");
 
 
     }}
